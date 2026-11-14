@@ -1,0 +1,9 @@
+{
+    "Button": "ui-button",
+    "IconButton": "ui-icon-button",
+    "HTMLInput": "ui-html-input",
+    "Card2Header": "ui-card2-header",
+    "Foo_Bar": "ui-foo-bar",
+    "Tabs.List": "ui-tabs-list",
+    "OTPInput": "ui-otp-input"
+}

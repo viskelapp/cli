@@ -1,0 +1,30 @@
+{
+    "name": "viskel",
+    "version": "0.1.0",
+    "description": "Viskel CLI: import claude.ai Design exports and push a design system built from your code.",
+    "bin": {
+        "viskel": "bin/viskel.ts"
+    },
+    "files": [
+        "bin",
+        "lib",
+        "README.md"
+    ],
+    "type": "module",
+    "scripts": {
+        "test": "node --test test/*.test.ts"
+    },
+    "dependencies": {
+        "esbuild": "^0.28.2",
+        "typescript": "^5.9.3"
+    },
+    "devDependencies": {
+        "@tailwindcss/node": "^4.3.3",
+        "@tailwindcss/oxide": "^4.3.3",
+        "@types/react": "^19.3.0",
+        "tailwindcss": "^4.3.3"
+    },
+    "engines": {
+        "node": ">=22.18"
+    }
+}
