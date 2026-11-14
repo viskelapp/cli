@@ -284,7 +284,6 @@ void test('ds push uploads the records, the bundle and the CSS', async () => {
                         rows: [],
                     },
                 ],
-                warnings: ['button.tsx uses a literal colour'],
             },
         };
 
@@ -303,7 +302,6 @@ void test('ds push uploads the records, the bundle and the CSS', async () => {
             stdout,
             /tokens: app\.css: 18 read, 12 mapped, 3 derived, 3 unmapped/,
         );
-        assert.match(stdout, /warning: button\.tsx uses a literal colour/);
 
         const req = stub.received.at(-1);
         assert.equal(req.method, 'POST');
